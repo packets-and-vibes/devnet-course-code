@@ -1,4 +1,4 @@
-favorite_car = [
+favorite_cars = [
     {
         'make': 'Tesla',
         'model': 'Model S',
@@ -18,3 +18,13 @@ favorite_car = [
         'owner': None # None
     }    
 ]
+
+if favorite_cars == []:
+    print("This list is empty")
+    print('Please add some items to the list\nThank you')
+elif favorite_cars[1]['make'] == 'Porsche':
+    print('The second iem is a Porsche')
+    print(favorite_cars[1]['make'] + ' ' + favorite_cars[1]['model'])
+else:
+    print('This list is not empty')
+    print(favorite_cars[1]['make'] + ' ' + favorite_cars[1]['model'])
