@@ -1,0 +1,24 @@
+<router>
+    <hostname>R1</hostname>
+    <interface>
+        <name>G0/0</name>
+        <ip>192.168.1.254</ip>
+        <mask>255.255.255.0</mask>
+    </interface>
+    <interface>
+        <name>G0/1</name>
+        <ip>172.16.1.2</ip>
+        <mask>255.255.255.0</mask>
+    </interface>
+    <routing>
+        <routes>
+            <destination>192.168.2.0</destination>
+            <mask>255.255.255.0</mask>
+            <gateway>192.168.1.253</gateway>
+        <routes>
+            <destination>0.0.0.0</destination>
+            <mask>0.0.0.0</mask>
+            <gateway>201.1.113.54</gateway>
+        </routes>
+    </routing>
+</router>
