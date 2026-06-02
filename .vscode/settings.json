@@ -1,0 +1,7 @@
+{
+    "terminal.integrated.env.osx": {
+        "PYTHONPATH": "/Users/kenny/Documents/Projects/devnet-course-code"
+    },
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.terminal.useEnvFile": true
+}
